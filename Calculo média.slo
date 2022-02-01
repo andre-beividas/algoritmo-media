@@ -1,0 +1,15 @@
+início {
+    real: nota1;
+    real: nota2;
+    real: nota3;
+    real: media;
+    
+    leia ("escreva sua primeira nota", nota1);
+    leia ("escreva sua segunda nota", nota2);
+    leia ("escreva sua terceira nota", nota3);
+    
+    media = (nota1 + nota2 + nota3) / 3;
+    
+    escreva ("Sua media de notas é de: " + media);
+    
+}
